@@ -5,10 +5,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class DevicesUI {
+public class DeviceControlUI2 {
     private ControlDevice controlDevice;
 
-    public DevicesUI(ControlDevice controlDevice) {
+    public DeviceControlUI2(ControlDevice controlDevice) {
         this.controlDevice = controlDevice;
 
         JFrame frame = new JFrame("Device Control UI");

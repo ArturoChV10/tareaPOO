@@ -15,7 +15,7 @@ public class ImageInPanelExample {
     	JFrame frame = new JFrame("Image in JFrame Example");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        frame.setSize(1000, 500);
+        frame.setSize(450, 420);
 
         JPanel panel = new JPanel();
         panel.setLayout(new BorderLayout());
@@ -37,7 +37,7 @@ public class ImageInPanelExample {
             // Agrega el JLabel al panel
             panel.add(imageLabel, BorderLayout.CENTER);
             
-            panel.setBounds(200, 200, 400, 300);
+            panel.setBounds(25, 10, 400, 300);
 
             frame.add(panel);
             frame.setLayout(null);
@@ -58,7 +58,7 @@ public class ImageInPanelExample {
             }
         });
         
-        showPhotoButton.setBounds(0, 0, 150, 50);
+        showPhotoButton.setBounds(0, 310, 150, 50);
         
         JButton increaseVolumeButton = new JButton("Adjust Volume");
         increaseVolumeButton.addActionListener(new ActionListener() {
@@ -68,7 +68,7 @@ public class ImageInPanelExample {
             }
         });
         
-        increaseVolumeButton.setBounds(150, 0, 150, 50);
+        increaseVolumeButton.setBounds(150, 310, 150, 50);
         
         JButton decreaseVolumeButton = new JButton("Adjust Volume");
         decreaseVolumeButton.addActionListener(new ActionListener() {
@@ -78,7 +78,7 @@ public class ImageInPanelExample {
             }
         });
         
-        decreaseVolumeButton.setBounds(300, 0, 150, 50);
+        decreaseVolumeButton.setBounds(300, 310, 150, 50);
         
         frame.add(increaseVolumeButton);
         frame.add(decreaseVolumeButton);
